@@ -24,7 +24,7 @@ const addNoteHandler = (request, h) => {
                 noteId: id,
             },
         });
-        // response.code(201);
+        response.code(201);
         response.header('Access-Control-Allow-Origin', '*');
         return response;
     }
